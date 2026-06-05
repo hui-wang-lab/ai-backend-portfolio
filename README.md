@@ -21,14 +21,14 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 
 ## 作品矩阵
 
-| 作品 | 类型 | 呈现的能力 | 可展开的技术问题 |
+| 作品 | 类型 | 工程侧重点 | 设计关注点 |
 | --- | --- | --- | --- |
-| [ai-platform](https://github.com/hui-wang-lab/ai-platform) | 可运行工程 / 平台骨架 | AI 平台服务边界、控制台、知识服务、数字员工、LLM Gateway | 你如何组织企业级 AI 应用平台？ |
-| [RecallForge](https://github.com/hui-wang-lab/RecallForge) | RAG 服务 Demo | 文档接入、检索、引用、权限隔离、可追溯、可评测 | 企业 RAG 不是向量库查询，你怎么设计？ |
-| [ChunkFlow](https://github.com/hui-wang-lab/ChunkFlow) | 文档解析与切片服务 | 多解析器降级、文档类型识别、父子 chunk、质量诊断 | RAG 的文档切片和质量问题怎么处理？ |
-| [PeiLian](https://github.com/hui-wang-lab/PeiLian) | 业务型 AI 应用 Demo | persona、对话状态、规则评估、LLM-as-Judge、Web 报告 | AI 能力如何落到具体业务闭环？ |
-| [双录坐席调度 Case Study](case-studies/dual-recording-dispatch.md) | 脱敏复盘 | 状态机、幂等、超时补偿、Redis / SQL 优化、线上排查 | 你有没有真实复杂业务系统交付经验？ |
-| [智能客服问答优化 Case Study](case-studies/customer-service-qa-optimization.md) | 脱敏复盘 | 问题归因、知识维护、命中分析、反馈闭环、RAG 迁移 | 你做 RAG 前有没有问答系统经验积累？ |
+| [ai-platform](https://github.com/hui-wang-lab/ai-platform) | 可运行工程 / 平台骨架 | AI 平台服务边界、控制台、知识服务、数字员工、LLM Gateway | 企业级 AI 应用平台的能力组织与服务边界 |
+| [RecallForge](https://github.com/hui-wang-lab/RecallForge) | RAG 服务 Demo | 文档接入、检索、引用、权限隔离、可追溯、可评测 | 可信 RAG 的链路设计、质量控制与评测闭环 |
+| [ChunkFlow](https://github.com/hui-wang-lab/ChunkFlow) | 文档解析与切片服务 | 多解析器降级、文档类型识别、父子 chunk、质量诊断 | 文档解析、父子 chunk、切片质量与诊断链路 |
+| [PeiLian](https://github.com/hui-wang-lab/PeiLian) | 业务型 AI 应用 Demo | persona、对话状态、规则评估、LLM-as-Judge、Web 报告 | 业务型 AI 应用的对话状态、评估与报告闭环 |
+| [双录坐席调度 Case Study](case-studies/dual-recording-dispatch.md) | 脱敏复盘 | 状态机、幂等、超时补偿、Redis / SQL 优化、线上排查 | 复杂业务链路中的状态治理、补偿机制与性能优化 |
+| [智能客服问答优化 Case Study](case-studies/customer-service-qa-optimization.md) | 脱敏复盘 | 问题归因、知识维护、命中分析、反馈闭环、RAG 迁移 | 问答系统的知识维护、问题归因与 RAG 经验迁移 |
 
 ## 能力地图
 
