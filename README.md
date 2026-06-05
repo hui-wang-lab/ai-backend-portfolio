@@ -1,12 +1,16 @@
 # AI Backend Portfolio
 
-面向 AI 应用后端负责人、Java 技术经理、RAG 应用架构方向的作品索引。
+围绕企业级 AI 应用后端工程化的公开作品集，聚焦 RAG 知识服务、LLM Gateway、数字员工运行时、业务型 AI 应用和复杂业务链路治理。
 
-这不是简历的替代品，而是简历之外的工程补充材料：用可运行 Demo、脱敏 case study、架构图和工程取舍说明，展示我如何把 LLM / RAG / 数字员工能力接入真实业务系统，并处理服务边界、数据流、权限、日志、审计、trace、评测、降级和交付风险。
+这里收录可运行 Demo、脱敏 case study、架构图、工程文章和设计取舍说明。核心关注点包括服务边界、数据流、权限控制、日志审计、trace、评测、降级、可观测性和产品化补齐。
 
-## 定位摘要
+## 关注方向
 
-我不是算法研究岗，也不是只会调 prompt 的应用开发。我更关注 AI 能力进入企业业务系统后的后端工程化问题：知识接入、检索链路、模型网关、数字员工运行时、权限边界、日志审计、评测闭环和可交付性。
+- 企业知识接入与可信 RAG 链路
+- 模型调用网关与 AI 平台服务边界
+- 数字员工 / Agent 运行时建模
+- 业务问答系统的评测与反馈闭环
+- 状态机、幂等、超时补偿和复杂业务链路治理
 
 ## 作品主线
 
@@ -41,7 +45,7 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 
 快速浏览：
 
-1. 看本页的定位摘要和作品矩阵。
+1. 看本页的关注方向和作品矩阵。
 2. 打开 [ai-platform](https://github.com/hui-wang-lab/ai-platform)，理解整体平台边界。
 3. 打开 [RecallForge](https://github.com/hui-wang-lab/RecallForge) 和 [ChunkFlow](https://github.com/hui-wang-lab/ChunkFlow)，看可信 RAG 链路。
 4. 看 [双录坐席调度 Case Study](case-studies/dual-recording-dispatch.md)，确认真实业务系统经验。
