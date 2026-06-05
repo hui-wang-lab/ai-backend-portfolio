@@ -2,7 +2,7 @@
 
 面向 AI 应用后端负责人、Java 技术经理、RAG 应用架构方向的作品索引。
 
-这不是简历的替代品，而是简历的证据层：用可运行 Demo、脱敏 case study、架构图和工程取舍说明，证明我能把 LLM / RAG / 数字员工能力接入真实业务系统，并处理服务边界、数据流、权限、日志、审计、trace、评测、降级和交付风险。
+这不是简历的替代品，而是简历之外的工程补充材料：用可运行 Demo、脱敏 case study、架构图和工程取舍说明，展示我如何把 LLM / RAG / 数字员工能力接入真实业务系统，并处理服务边界、数据流、权限、日志、审计、trace、评测、降级和交付风险。
 
 ## 30 秒定位
 
@@ -17,7 +17,7 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 
 ## 作品矩阵
 
-| 作品 | 类型 | 证明的能力 | 面试中承接的问题 |
+| 作品 | 类型 | 呈现的能力 | 可展开的技术问题 |
 | --- | --- | --- | --- |
 | [ai-platform](https://github.com/hui-wang-lab/ai-platform) | 可运行工程 / 平台骨架 | AI 平台服务边界、控制台、知识服务、数字员工、LLM Gateway | 你如何组织企业级 AI 应用平台？ |
 | [RecallForge](https://github.com/hui-wang-lab/RecallForge) | RAG 服务 Demo | 文档接入、检索、引用、权限隔离、可追溯、可评测 | 企业 RAG 不是向量库查询，你怎么设计？ |
@@ -28,7 +28,7 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 
 ## 能力地图
 
-| 能力 | 证据 |
+| 能力 | 对应材料 |
 | --- | --- |
 | RAG 工程化 | `ChunkFlow` 负责高质量切片，`RecallForge` 负责企业知识检索与 RAG 服务 |
 | AI 应用后端架构 | `ai-platform` 以服务边界组织训练、知识、编排、数字员工和模型网关能力 |
@@ -49,7 +49,7 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 技术深挖时：
 
 - [AI 平台服务边界图](architecture/ai-platform-boundary.md)
-- [RAG 工程证据链](architecture/rag-evidence-chain.md)
+- [RAG 工程链路](architecture/rag-engineering-chain.md)
 - [面试阅读路径](interview/reading-path.md)
 
 ## 仓库结构
@@ -60,7 +60,7 @@ ai-backend-portfolio
   links.md
   architecture/
     ai-platform-boundary.md
-    rag-evidence-chain.md
+    rag-engineering-chain.md
   case-studies/
     dual-recording-dispatch.md
     customer-service-qa-optimization.md
@@ -78,4 +78,3 @@ ai-backend-portfolio
 - 不包含客户名称、客户数据、合同、真实接口地址或密钥。
 - 不把 POC 包装成大规模生产系统。
 - 重点展示工程建模、接口设计、数据流、日志、评测、降级和交付取舍。
-

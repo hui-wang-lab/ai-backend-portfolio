@@ -15,7 +15,7 @@
 建议阅读顺序：
 
 1. [AI 平台服务边界图](../architecture/ai-platform-boundary.md)
-2. [RAG 工程证据链](../architecture/rag-evidence-chain.md)
+2. [RAG 工程链路](../architecture/rag-engineering-chain.md)
 3. [RecallForge](https://github.com/hui-wang-lab/RecallForge)
 4. [ChunkFlow](https://github.com/hui-wang-lab/ChunkFlow)
 5. [双录坐席调度 Case Study](../case-studies/dual-recording-dispatch.md)
@@ -38,9 +38,8 @@
 
 被问是否真实项目时：
 
-> 公司项目代码和客户数据不能公开，所以我把真实经验拆成两类证据：一类是脱敏 case study，讲问题、方案和结果；另一类是用合成数据重构的 Demo，展示我对技术链路的理解和落地能力。
+> 公司项目代码和客户数据不能公开，所以我把真实经验拆成两类公开材料：一类是脱敏 case study，讲问题、方案和结果；另一类是用合成数据重构的 Demo，展示我对技术链路的理解和落地能力。
 
 被问从 Demo 到生产差什么：
 
 > 我不会把 Demo 包装成生产系统。我的文档会专门写权限、审计、日志、评测、降级、容量评估和产品化补齐项，因为这些才是企业 AI 应用真正难交付的地方。
-
