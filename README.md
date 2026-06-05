@@ -51,6 +51,7 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 - [AI 平台服务边界图](architecture/ai-platform-boundary.md)
 - [RAG 工程链路](architecture/rag-engineering-chain.md)
 - [阅读指南](guide/reading-guide.md)
+- [工程文章](articles/README.md)
 
 ## 仓库结构
 
@@ -66,6 +67,8 @@ ai-backend-portfolio
     customer-service-qa-optimization.md
   guide/
     reading-guide.md
+  articles/
+    README.md
   assets/
     README.md
 ```

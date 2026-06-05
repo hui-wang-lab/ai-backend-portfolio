@@ -15,6 +15,7 @@
 - [双录坐席调度 Case Study](case-studies/dual-recording-dispatch.md)
 - [智能客服问答优化 Case Study](case-studies/customer-service-qa-optimization.md)
 - [阅读指南](guide/reading-guide.md)
+- [工程文章](articles/README.md)
 
 ## To Add Later
 
