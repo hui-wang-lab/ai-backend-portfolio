@@ -14,11 +14,11 @@
 - [RAG 工程链路](architecture/rag-engineering-chain.md)
 - [双录坐席调度 Case Study](case-studies/dual-recording-dispatch.md)
 - [智能客服问答优化 Case Study](case-studies/customer-service-qa-optimization.md)
-- [面试阅读路径](interview/reading-path.md)
+- [阅读指南](guide/reading-guide.md)
 
 ## To Add Later
 
-- 3 分钟 RAG Demo 讲解视频
-- 3 分钟 AI 平台讲解视频
+- RAG Demo 简短演示视频
+- AI 平台简短演示视频
 - 架构图导出的 PNG 文件
 - 简历 PDF 链接

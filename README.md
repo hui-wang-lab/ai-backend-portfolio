@@ -4,7 +4,7 @@
 
 这不是简历的替代品，而是简历之外的工程补充材料：用可运行 Demo、脱敏 case study、架构图和工程取舍说明，展示我如何把 LLM / RAG / 数字员工能力接入真实业务系统，并处理服务边界、数据流、权限、日志、审计、trace、评测、降级和交付风险。
 
-## 30 秒定位
+## 定位摘要
 
 我不是算法研究岗，也不是只会调 prompt 的应用开发。我更关注 AI 能力进入企业业务系统后的后端工程化问题：知识接入、检索链路、模型网关、数字员工运行时、权限边界、日志审计、评测闭环和可交付性。
 
@@ -39,9 +39,9 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 
 ## 推荐阅读路径
 
-面试官时间很少时：
+快速浏览：
 
-1. 看本页的 30 秒定位和作品矩阵。
+1. 看本页的定位摘要和作品矩阵。
 2. 打开 [ai-platform](https://github.com/hui-wang-lab/ai-platform)，理解整体平台边界。
 3. 打开 [RecallForge](https://github.com/hui-wang-lab/RecallForge) 和 [ChunkFlow](https://github.com/hui-wang-lab/ChunkFlow)，看可信 RAG 链路。
 4. 看 [双录坐席调度 Case Study](case-studies/dual-recording-dispatch.md)，确认真实业务系统经验。
@@ -50,7 +50,7 @@ ChunkFlow      -> RecallForge        -> PeiLian      -> ai-platform
 
 - [AI 平台服务边界图](architecture/ai-platform-boundary.md)
 - [RAG 工程链路](architecture/rag-engineering-chain.md)
-- [面试阅读路径](interview/reading-path.md)
+- [阅读指南](guide/reading-guide.md)
 
 ## 仓库结构
 
@@ -64,8 +64,8 @@ ai-backend-portfolio
   case-studies/
     dual-recording-dispatch.md
     customer-service-qa-optimization.md
-  interview/
-    reading-path.md
+  guide/
+    reading-guide.md
   assets/
     README.md
 ```

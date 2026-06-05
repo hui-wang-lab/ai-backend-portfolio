@@ -15,4 +15,4 @@
 - `rag-engineering-chain.png`
 - `dispatch-state-machine.png`
 - `customer-service-feedback-loop.png`
-- Demo 截图或 3 分钟讲解视频封面
+- Demo 截图或演示视频封面
